@@ -1,0 +1,242 @@
+body {
+    font-family: sans-serif;
+    background-color: #EFF1F3;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.help {
+    font-size: 1.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.help_box {
+    box-shadow: 0 0 -1rem 0 #ce845c;
+    transition: color 0.2s ease-in, box-shadow 0.2s;
+    margin-bottom: 1rem;
+
+}
+
+.help_box:hover {
+    background-color: #EFF1F3;
+    box-shadow: 0 0.5rem 0 0 #ce845c;
+}
+
+
+.form-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-files-column {
+    padding-bottom: 0.5rem;
+}
+
+.input-file {
+    display: none;
+}
+
+.button-label {
+    padding: 1rem 0.75rem;
+    width: 25rem;
+    border-radius: 0.75rem;
+    background-color: #54577C;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.button-label:hover {
+    scale: 105%;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.active {
+    padding: 1rem 0.75rem;
+    width: 25rem;
+    border-radius: 0.75rem;
+    background-color: #739279;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.error-label {
+    padding: 1rem 0.75rem;
+    width: 20rem;
+    text-align: center;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    color: #a53719;
+    background-color: #fccccc;
+}
+
+.disabler {
+    opacity: 25%;
+}
+
+
+.submit-button {
+    height: 3rem;
+    width: 26.5rem;
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    background-color: #ce845c;
+    color: #fff;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 1rem;
+    margin-top: 0.65rem;
+}
+
+.help-center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button[disabled]:hover {
+    height: 3rem;
+    width: 26.5rem;
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    background-color: #ce845c;
+    color: #fff;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top: 0.65rem;
+    scale: 100%;
+}
+
+.submit-button:hover {
+    scale: 105%;
+    background-color: #ec7453;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.result {
+    padding: 1rem 0.75rem;
+    width: 20rem;
+    text-align: center;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    color: #54577C;
+    background-color: #DBD3D8;
+    font-weight: bolder;
+}
+
+.result-header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.clear-search {
+    width: 27rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    background-color: #cf3a3a;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 1rem 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.clear-search:hover {
+    scale: 105%;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.result-label {
+    width: 23rem;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 1rem 0.75rem;
+    background-color: #DBD3D8;
+}
+
+.result-label:hover {
+    cursor: pointer;
+    background-color: #fcdacf;
+    padding: 1rem 0.75rem;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.url {
+    text-decoration: none;
+    color: #3c3f5c;
+    font-weight: bolder;
+}
+
+.title-sub {
+    margin-bottom: -0.5rem;
+}
+
+.footer {
+    margin-bottom: -2rem;
+    text-decoration: none;
+    color: #3c3f5c;
+}
+
+.developed {
+    text-decoration: none;
+    color: #3c3f5c;
+}
+
+.background-enforcer {
+    width: 27rem;
+    display: flex;
+    background-color: #6a6d96;
+    border-radius: 0.75rem;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
