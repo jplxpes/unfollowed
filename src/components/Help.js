@@ -23,7 +23,7 @@ const Help = ({ functionRef }) => {
 
             <h2 class="title-sub"> Is this safe? </h2>
             <p> All the data your sending is completely harmless, so you can rest assured that your account is safe! <br />  The code (which is really simple btw), can be found below </p>
-            <a className="url" href="https://www.androidguys.com/tips-tools/get-instagram-data-report/"> Git Repo </a>
+            <a className="url" href="https://github.com/jplxpes/unfollowed"> Git Repo </a>
 
             <br></br>
             <input value="Take me to the APP" className="submit-button" type="submit" onClick={() => functionRef(false)} />
