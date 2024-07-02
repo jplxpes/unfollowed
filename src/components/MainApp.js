@@ -44,7 +44,7 @@ const MainApp = ({ functionRef }) => {
 
     useEffect(() => {
 
-        if (followers && followers.name !== "followers.html") {
+        if (followers && followers.name !== "followers_1.html") {
             selectFollowers(null)
             setError("Wrong file for the Followers selected!")
             inputFollowers.current.className = 'button-label';
